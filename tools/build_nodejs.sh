@@ -8,7 +8,7 @@ build_root=$(cd "$(dirname "$0")/.." && pwd)
 build_root=$build_root/build_nodejs
 
 # Version of Node.js to build
-node_version="v6.10.1"
+node_version="v8.2.1"
 
 usage ()
 {
