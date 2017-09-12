@@ -6,7 +6,7 @@ Param(
     # Version of Node.js to build
     [Alias("node-version")]
     [string]
-    $NodeVersion="v8.2.1",
+    $NodeVersion="v8.5.0",
 
     # Other params to be passed to Node.js build script
     [Parameter(ValueFromRemainingArguments=$true)]
